@@ -8,7 +8,6 @@ def read_txt(txt_path):
     return df
 
 def process(x):
-    
     limit = {'red cubes': 12, 
              'green cubes': 13 , 
              'blue cubes': 14
@@ -37,7 +36,6 @@ def process(x):
 
     return x
         
-
 
 if __name__ == '__main__':
     df = read_txt('input.txt')
